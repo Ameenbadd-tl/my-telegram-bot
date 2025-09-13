@@ -1,7 +1,60 @@
 {
   "buttons": {
-    "1️⃣": ["1.1", "1.2"],
-    "2️⃣": ["2.1", "2.2"]
+    "main": {
+      "type": "menu",
+      "parent": null,
+      "items": [
+        "skills"
+      ],
+      "files": []
+    },
+    "skills": {
+      "type": "menu",
+      "parent": "main",
+      "items": [
+        "reserarch"
+      ],
+      "files": []
+    },
+    "reserarch": {
+      "type": "files",
+      "parent": "skills",
+      "items": [],
+      "files": [
+        {
+          "media_type": "document",
+          "file_id": "BQACAgQAAxkBAAIGGGjDqlKn7LJoF5577HVz9fn5XYwCAAIKGQACGH8hUmF6CvSlipbENgQ",
+          "file_name": "IMG_20240606_132154_893 (1).pdf"
+        },
+        {
+          "media_type": "document",
+          "file_id": "BQACAgQAAxkBAAIGGWjDqlLFICAHsdCtuncd1uM_8fc0AAILGQACGH8hUgwV5jXxeXPZNgQ",
+          "file_name": "communication skills .pdf"
+        },
+        {
+          "media_type": "document",
+          "file_id": "BQACAgQAAxkBAAIGGmjDqlIjtaM-doJ7UDTYXjve0csxAAIMGQACGH8hUr-oNjW1RKXvNgQ",
+          "file_name": "20250907_Data ManagementV3 (2).pdf"
+        },
+        {
+          "media_type": "document",
+          "file_id": "BQACAgQAAxkBAAIGK2jDqoHzaAN_qvfKyi7z2KimoMA8AAINGQACGH8hUkCTu4KuRoZLNgQ",
+          "file_name": "photo_2025-09-12_04-57-42.jpg"
+        }
+      ]
+    }
   },
-  "files": {}
+  "user_data": {
+    "5091560281": {
+      "started": true
+    },
+    "6085506848": {
+      "started": true
+    }
+  },
+  "welcome_message": {
+    "media_type": "text",
+    "text": "5091560281"
+  },
+  "bot_status": "online"
 }
